@@ -1,4 +1,4 @@
-# Facade Design Pattern: Java implemenation
+# Facade Design Pattern: Structural Design 
 * What is Facade Design Pattern? 
 * Used mostly at the client side/front facing side.
 * To hide/mask/reduce the underlying complex code
