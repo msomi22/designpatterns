@@ -20,7 +20,7 @@ Let's see
 * Example
 
 ```java
-public interface VendorProxyRequest{
+public interface VendorProxyRequest implements VendorRequest{
      VendorResponse vendorRequest(VendorRequest request);
   }
 ```
