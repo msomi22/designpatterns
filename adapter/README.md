@@ -12,7 +12,8 @@
 Imagine that you have a micro USB type B charger and you want to charge your type C phone!
 You can buy an adapter that would help you convert type B micro to Type C.
 ```
-![Universal USB](https://github.com/msomi22/designpatterns/blob/master/files/USB_Adapter.jpg | width=49)
+**![Universal USB](https://github.com/msomi22/designpatterns/blob/master/files/USB_Adapter.jpg)
+<img src="https://github.com/msomi22/designpatterns/blob/master/files/USB_Adapter.jpg" alt="Universal USB" width="500" height="600">
 
 ```java
 public class Client{
