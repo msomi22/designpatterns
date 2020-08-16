@@ -14,6 +14,7 @@ You can buy an adapter that would help you convert type B micro to Type C.
 ```
 <img src="https://github.com/msomi22/designpatterns/blob/master/files/USB_Adapter.jpg" alt="Universal USB" width="300" height="200">
 
+**Below is an example**
 * The client code doesn't implement Adaptee directly because of incompatibility
 * Client code only understand JavaScript Object Notation "JSON"
 * But the client want's to call a SOAP endpoint
