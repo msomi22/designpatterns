@@ -43,7 +43,7 @@ public interface Target{
 }
 ```
 
-**This is our Adapter class, it bridges the gap by making the two compatible**
+**This is our Adapter class, it bridges the gap by making the two compatible**, that is, convert JSON to SOAP. 
 
 ```java
 public class Adapter implements Target{
