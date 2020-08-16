@@ -39,7 +39,7 @@ target.call(requestJson);
 
 ```java
 public interface Target{
-  void call(String jsonData);
+  void call(String data);
 }
 ```
 
