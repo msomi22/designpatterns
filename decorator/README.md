@@ -4,4 +4,4 @@
 
 
 
-<img src="designpatterns/blob/master/files/decorator.PNG" alt="Decorator pattern" width="300" height="200">
+<img src="https://github.com/msomi22/designpatterns/blob/master/files/decorator.PNG" alt="Decorator pattern" width="300" height="200">
