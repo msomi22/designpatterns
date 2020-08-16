@@ -12,3 +12,4 @@
 Imagine that you have type A charger and you want to charge your type C phone!
 You can buy an adapter that woul help you convert type A to Type C.
 ```
+![alt text](https://github.com/msomi22/designpatterns/files/master/USB_Adapter.png) 
