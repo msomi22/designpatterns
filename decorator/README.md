@@ -7,3 +7,6 @@
 <img src="https://github.com/msomi22/designpatterns/blob/master/files/decorator.PNG" alt="Decorator pattern" width="500" height="400">
 
 * We are adding new behavior/functionality  to the original/existing object, dynamically, without affecting/altering it original/existing behavior/structure.
+* Remember that...
+* Inheritance is not for code reuse/sharing behaviour, it is a way of using composation, rather than inheritance in order to share behavours.
+* This concept will be useful here. 
