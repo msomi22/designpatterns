@@ -1,5 +1,5 @@
 # Design patterns made simple. 
-* **What is design pattern?** design patter is a practical, proven, general, repeatable/recurring  solution to a commonly occurring design problem.
+* **What is a design pattern?** design patter is a practical, proven, general, repeatable/recurring  solution to a commonly occurring design problem.
 * Categoris of design patterns
    1. Creational  - objects creation/instantiation. 
         * Examples
