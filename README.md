@@ -16,22 +16,22 @@
   * Robert C. Martin/Uncle Bob introduced the SOLID principle.
   * The specific principles were introduced by specific people. 
   * What is SOLID?
-        * S - **Single**: Single responsiblity principle
+        * S : Single responsiblity principle
               * Introduced by Robert C Martin.
               * A class should have one and only one reason to change, "do one thing and do it well".
-        * O - **Open**: Open-closed principle
+        * O : Open-closed principle
               * Introduced by Bertrand Meyer. 
               * Objects should be open for extension, but closed for modification.
-        * L - **Liskov**: Liskov substitution principle
+        * L : Liskov substitution principle
               * Introduced by *Barbara Liskov* in 1987.
               * It states that: 
               * An object of a superclass should be replaceable by objects of its subclasses without causing issues in the application. 
               * A child class should never change the characteristics of its parent class.
-        * I - **Interface**: Interface segregation principle
+        * I : Interface segregation principle
               * Introduced by Robert C Martin
               * A client code should never be forced to implement an interface that it doesn't use.
               * Clients shouldn't be forced to depend on methods they do not use.
-        * D - **Dependency**: Dependency Inversion Principle
+        * D : Dependency Inversion Principle
               * Introduced by Robert C Martin
               * Objects/entities must depend on abstractions not on concretions. 
               * The high level module must not depend on the low level module, but they should depend on abstractions.
