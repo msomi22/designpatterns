@@ -2,6 +2,7 @@
 * Proxy pattern provides a surrogate/substitute/placeholder for another object in order to control access. 
 * It controls access to the original object, that is
 * You are able to perform something before or after the request reaches it destination/"original object".
+* Proxy pattern can be grouped into either remote proxy, virtual proxy or protection proxy. 
 * **But why would you want to do this?**
 * Mh! Interesting question
 * Let's get an example.
@@ -17,7 +18,7 @@ Let's see
 ```
 * Assume that in the third part library we have this interface "VendorRequest" that has method "sendRequest". 
 * Create a proxy interface that implements "VendorRequest" and add the OAuth2 logic before sending your request.
-* Example
+* We will create a remote proxy service as shown below.
 
 ```java
 public interface VendorProxyRequest implements VendorRequest{
