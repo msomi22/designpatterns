@@ -15,7 +15,7 @@ You can buy an adapter that would help you convert type B micro to Type C.
 ![Universal USB](https://github.com/msomi22/designpatterns/blob/master/files/USB_Adapter.jpg) 
 
 ```java
-class Client{
+public class Client{
 Target target = new Target(
     new Adapter(
         new Adaptee();
@@ -26,14 +26,14 @@ target.call();
 }
 ```
 ```java
-interface Target{
+public interface Target{
   void call();
 }
 ```
 
 ```java
-class Adapter implements Target{
-Adaptee adaptee;
+public class Adapter implements Target{
+private Adaptee adaptee;
 public Adapter(Adaptee a){
  this.adaptee = a;
 }
