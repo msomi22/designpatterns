@@ -3,7 +3,7 @@
 * It controls access to the original object, that is
 * You are able to perform something before or after the request reaches it destination/"original object".
 * Proxy pattern can be grouped into either remote proxy, virtual proxy or protection proxy. 
-     1. Remote proxy: interract with a remote resource.
+     1. Remote proxy: Interract with a remote resource.
      2. Virtual prxy: Controls access to resource that is expensive to create. 
      3. Protection proxy: Controls access management.
 * **But why would you want to do this?**
