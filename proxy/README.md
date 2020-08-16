@@ -15,13 +15,14 @@ Your buddy reminds you of the proxy design pattern.
 So how can proxy pattern help us?
 Let's see
 ```
-* Assume that in the third part library we have this interface "VendorRequest" that has method "vendorRequest". 
+* Assume that in the third part library we have this interface "VendorRequest" that has method "sendRequest". 
 * Create a proxy interface that implements "VendorRequest" and add the OAuth2 logic before sending your request.
 * Example
 
 ```java
 public interface VendorProxyRequest implements VendorRequest{
-     VendorResponse vendorRequest(VendorRequest request);
+     //override sendRequest in third party lib
+     VResponse sendRequest(VRequest request);
   }
 ```
 
@@ -30,10 +31,10 @@ public interface VendorProxyRequest implements VendorRequest{
 ```java
 public class VendorPorxyImpl implements VendorProxyRequest{
 
-public VendorResponse vendorRequest(VendorRequest request){
+public VResponse sendRequest(VRequest request){
 //add OAuth2 logic
 //send request
-VendorResponse response = ThirdParty.call(request);
+VResponse response = ThirdParty.call(request);
 }
 }
 ```
