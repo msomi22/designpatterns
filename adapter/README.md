@@ -16,10 +16,30 @@ You can buy an adapter that would help you convert type B micro to Type C.
 
 ```java
 class Client{
-Target target = new (
+Target target = new Target(
     new Adapter(
         new Adaptee();
     )
 );
+
+target.call();
+}
+```
+```java
+interface Target{
+  void call();
+}
+```
+
+```java
+class Adapter implements Target{
+Adaptee adaptee;
+public Adapter(Adaptee a){
+ this.adaptee = a;
+}
+
+public void call(){
+this.adaptee.callRequest();
+}
 }
 ```
