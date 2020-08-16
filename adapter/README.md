@@ -13,8 +13,9 @@ Imagine that you have a micro USB type B charger and you want to charge your typ
 You can buy an adapter that would help you convert type B micro to Type C.
 ```
 <img src="https://github.com/msomi22/designpatterns/blob/master/files/USB_Adapter.jpg" alt="Universal USB" width="300" height="200">
-### The client code,
-* Doesn't implement Adaptee directly because of incompatibility 
+
+### The client code. Doesn't implement Adaptee directly because of incompatibility
+
 ```java
 public class Client{
 Target target = new Target(
@@ -25,13 +26,17 @@ Target target = new Target(
 target.call();
 }
 ```
+
 ### Our Interface
+
 ```java
 public interface Target{
   void call();
 }
 ```
+
 ### This is our Adapter class, it bridges the gap by making the two compatible
+
 ```java
 public class Adapter implements Target{
 private Adaptee adaptee;
