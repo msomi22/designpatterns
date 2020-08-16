@@ -23,7 +23,8 @@ Target target = new Target(
         new Adaptee();
     )
 );
-target.call();
+String requestJson = "json data here";
+target.call(requestJson);
 }
 ```
 
@@ -31,7 +32,7 @@ target.call();
 
 ```java
 public interface Target{
-  void call();
+  void call(String jsonData);
 }
 ```
 
@@ -44,8 +45,9 @@ public Adapter(Adaptee a){
  this.adaptee = a;
 }
 
-public void call(){
-this.adaptee.callRequest();
+public void call(String jsonData){
+String SOAPRequest = jsonToSAOP(jsonData);
+this.adaptee.callRequest(SOAPRequest);
 }
 }
 ```
