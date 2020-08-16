@@ -30,8 +30,8 @@ Target target = new Target(
         new Adaptee();
     )
 );
-String requestJson = "json data here";
-target.call(requestJson);
+String jsonRequest = "json data here";
+String jsonResponse = target.call(jsonRequest);
 }
 ```
 
@@ -39,11 +39,11 @@ target.call(requestJson);
 
 ```java
 public interface Target{
-  void call(String data);
+  String call(String data);
 }
 ```
 
-**This is our Adapter class, it bridges the gap by making the two compatible**, that is, convert JSON to SOAP. 
+**This is our Adapter class, it bridges the gap by making the two compatible**, that is, convert JSON to SOAP and SOAP to JSON. 
 
 ```java
 public class Adapter implements Target{
@@ -52,9 +52,9 @@ public Adapter(Adaptee a){
  this.adaptee = a;
 }
 
-public void call(String jsonData){
-String SOAPRequest = jsonToSAOP(jsonData);
-this.adaptee.callRequest(SOAPRequest);
+public String call(String jsonData){
+String soapRequest = jsonToSOAP(jsonData);
+return soapToJson(this.adaptee.callRequest(soapRequest));
 }
 }
 ```
