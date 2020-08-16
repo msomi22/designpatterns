@@ -14,13 +14,13 @@ You can buy an adapter that would help you convert type B micro to Type C.
 ```
 <img src="https://github.com/msomi22/designpatterns/blob/master/files/USB_Adapter.jpg" alt="Universal USB" width="300" height="200">
 
-### The client code doesn't implement Adaptee directly because of incompatibility
-### Client code only understand JavaScript Object Notation "JSON"
-### But the client want's to call a SOAP endpoint
-### We can't change our SOAP provider, so!
-### We create an adaptor class that will take JSON, understand and convert to SOAP
-### Then take SOAP response, and convert to JSON
-### Pretty cool!
+* The client code doesn't implement Adaptee directly because of incompatibility
+* Client code only understand JavaScript Object Notation "JSON"
+* But the client want's to call a SOAP endpoint
+* We can't change our SOAP provider, so!
+* We create an adaptor class that will take JSON, understand and convert to SOAP
+* Then take SOAP response, and convert to JSON
+* Pretty cool!
 
 ```java
 public class Client{
@@ -34,7 +34,7 @@ target.call(requestJson);
 }
 ```
 
-### Our Interface
+**Our Interface**
 
 ```java
 public interface Target{
@@ -42,7 +42,7 @@ public interface Target{
 }
 ```
 
-### This is our Adapter class, it bridges the gap by making the two compatible
+**This is our Adapter class, it bridges the gap by making the two compatible**
 
 ```java
 public class Adapter implements Target{
