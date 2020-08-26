@@ -16,7 +16,7 @@
   * Robert C. Martin/Uncle Bob introduced the SOLID principle.
   * The specific principles were introduced by specific people. 
 ## What is SOLID?
-  * S : Single responsiblity principle
+  * S : Single responsibility principle
        - Introduced by Robert C Martin.
        - A class should have one and only one reason to change, "do one thing and do it well".
   * O : Open-closed principle
