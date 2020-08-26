@@ -37,6 +37,6 @@
       - The high level module must not depend on the low level module, but they should depend on abstractions.
 
 
-## Other Design Principle
+## Other Design Principles
     - KISS (Keep it Simple, Stupid) 
     
