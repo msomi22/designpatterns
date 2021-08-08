@@ -52,12 +52,12 @@
       : **
 * Factory: (Virtual Constructor)
  :"Define an interface/class for creating an object but let the subclasses decide which class to instatiate"
- ** Simple,
- ** Method
+ 1. Simple,
+ 2. Method
      : Define an interface for creating an object but let subclasses decide whivh object t instatiate. 
 	 : Method that creates objects 
 	 : Polymorphism
- ** Abstract 
+ 3. Abstract 
      : Familiy of objects
  
 * Object pool pettern
