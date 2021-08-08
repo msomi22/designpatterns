@@ -43,9 +43,10 @@
      - * Initial setup is fully initialized and will be cloned later. 
 	 
 * Builder
-     - *  We have complex objects to create
-     - *  Separate object construction from its represenation
-     - *  Hide complex internal structure 
+     - *  We have complex objects to create, with a lot of parameters in the constructor.
+     - * Wrap the original class within a builder class to avoid passing unnecessary parameters. 
+     - *  Separate object construction from its represenation.
+     - *  Hide complex internal structure.
 		
 * Singleton(#) 
       
