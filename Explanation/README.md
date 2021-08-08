@@ -60,7 +60,7 @@
      - * Familiy of objects.
      - * Provide an interface for creating families of related or dependent objects without specifying their concrete classes
  
-* Object pool pettern.
+* Object pool pattern.
 
 # Structural (Composation of classes)
 * Proxy
