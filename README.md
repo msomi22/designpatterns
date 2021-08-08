@@ -3,7 +3,7 @@
 * Categoris of design patterns
    1. Creational  - objects creation/instantiation. 
         * Examples
-        * Factory method pattern, abstract factory pattern, static factory method, simple factory/factory method, Builder, Singleton, Object Pool, and Prototype etc.
+        * Simple/static factory, Factory method pattern, abstract factory pattern, Builder, Singleton, Object Pool, and Prototype etc.
    2. Structural - organizing different classes and objects to form larger structures and provide new functionality.
         * Examples
         * Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Private Class Data, and Proxy etc. 
