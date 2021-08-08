@@ -7,7 +7,7 @@ import java.io.File;
 import java.util.List;
 
 /**
- * @author KEN19282
+ * @author 
  *
  */
 public abstract class BatchProcessor {
