@@ -1,5 +1,5 @@
 ## Design patterns
-* Easy to maintains
+* Easy to maintain
 * template 
 
 
