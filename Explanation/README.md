@@ -72,10 +72,10 @@ Clients of an object pull "feel" like they are owners of a service although the 
      - * Object representing another object 
      - * Credit card is a proxy of a bank account
 * Decorator
-      - * Add responsibility to an object dynamically 
-      - * LineNumberInputStream(BufferedInputStream(FileInputeStream)))
-      - * Add discount to an order
-      - * Add toppings to a Pizza
+     - * Add responsibility to an object dynamically. 
+     - * LineNumberInputStream(BufferedInputStream(FileInputeStream))). 
+     - * Add discount to an order. 
+     - * Add toppings to a Pizza. 
 * Facade
     - * Single class that represent the entire subsystem.
     - * Event manager 
