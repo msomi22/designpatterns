@@ -12,6 +12,8 @@
         * Chain of responsibility, Command, Interpreter, Iterator, Mediator, Memento, Null Object, Observer, State, Strategy, Template method, Visitor etc.
         
 ## Important note
+  * Design Principles.
+  - * Design principles provide high level guidelines to design better software applications. They do not provide implementation guidelines and are not bound to any programming language.
   * SOLID design principle.
   * Robert C. Martin/Uncle Bob introduced the SOLID principle.
   * The specific principles were introduced by specific people. 
