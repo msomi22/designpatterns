@@ -12,7 +12,7 @@
 Imagine that you have a micro USB type B charger and you want to charge your type C phone!
 You can buy an adapter that would help you convert type B micro to Type C.
 ```
-<img src="https://github.com/msomi22/designpatterns/blob/master/files/USB_Adapter.jpg" alt="Universal USB" width="300" height="200">
+<img src="https://github.com/msomi22/designpatterns/blob/master/Explanation/files/USB_Adapter.jpg" alt="Universal USB" width="300" height="200">
 
 **Below is an example**
 * Client code only understand JavaScript Object Notation "JSON"
