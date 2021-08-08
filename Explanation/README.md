@@ -69,18 +69,18 @@ Clients of an object pull "feel" like they are owners of a service although the 
 
 # Structural (Composation of classes)
 * Proxy
-     - *  Object representing another object 
+     - * Object representing another object 
      - * Credit card is a proxy of a bank account
 * Decorator
-      - *  Add responsibility to an object dynamically 
-      - *  LineNumberInputStream(BufferedInputStream(FileInputeStream)))
-      - *  Add discount to an order
+      - * Add responsibility to an object dynamically 
+      - * LineNumberInputStream(BufferedInputStream(FileInputeStream)))
+      - * Add discount to an order
       - * Add toppings to a Pizza
 * Facade
-    - *  Single class that represent the entire subsystem.
-    - *  Event manager 
-    - *  Represent several steps into one step 
-    - *  Reduce network calls
+    - * Single class that represent the entire subsystem.
+    - * Event manager 
+    - * Represent several steps into one step 
+    - * Reduce network calls
 * Adapter (#) 
     - *  Match interfaces of different classes 
 * Flyweight
