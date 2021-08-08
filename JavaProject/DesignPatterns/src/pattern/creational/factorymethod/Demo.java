@@ -5,7 +5,7 @@ package pattern.creational.factorymethod;
 
 
 /**
- * @author KEN19282
+ * @author
  *
  */
 public class Demo {
