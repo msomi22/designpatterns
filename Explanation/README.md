@@ -5,10 +5,10 @@
 
 # Behavioural(Behaviour/interaction of objects)
 * Chain of Responsibility
-     : A way of passing a request between a chain of objects
-     : Loan aproval process 
-	 : Exeption handling 
-	 : Logger pattern 
+     - * A way of passing a request between a chain of objects
+     - * Loan aproval process 
+     - * Exeption handling 
+     - * Logger pattern 
 * Iterator(#) 
      : Sequentially access the elements of a collection
 * State
@@ -49,18 +49,18 @@
 	 : 
 		
 * Singleton(#) 
-      : **
+      
 * Factory: (Virtual Constructor)
- :"Define an interface/class for creating an object but let the subclasses decide which class to instatiate"
+ ### Define an interface/class for creating an object but let the subclasses decide which class to instatiate.
  1. Simple,
  2. Method
-     : Define an interface for creating an object but let subclasses decide whivh object t instatiate. 
-	 : Method that creates objects 
-	 : Polymorphism
+     * Define an interface for creating an object but let subclasses decide whivh object t instatiate. 
+     * Method that creates objects.
+     * Polymorphism.
  3. Abstract 
-     : Familiy of objects
+     * Familiy of objects.
  
-* Object pool pettern
+* Object pool pettern.
 
 # Structural (Composation of classes)
 * Proxy
