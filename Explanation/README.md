@@ -61,7 +61,11 @@
      - * Familiy of objects.
      - * Provide an interface for creating families of related or dependent objects without specifying their concrete classes
  
-* Object pool pattern.
+* Object pool pattern. 
+    - * Performance can be sometimes the key issue during the software development and the object creation(class instantiation) is a costly step. 
+    - * While the Prototype pattern helps in improving the performance by cloning the objects, the Object Pool pattern offer a mechanism to reuse objects that are expensive to create.
+
+Clients of an object pull "feel" like they are owners of a service although the service is shared among many other clients.
 
 # Structural (Composation of classes)
 * Proxy
