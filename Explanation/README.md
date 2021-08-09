@@ -84,4 +84,6 @@ Clients of an object pull "feel" like they are owners of a service although the 
 * Adapter (#) 
     - *  Match interfaces of different classes 
 * Flyweight
-   - *  A fine grained instance used for efficient sharing.
+   - * A fine grained instance used for efficient sharing.
+   - * Create large number of similar objects, like 90,000 
+   - * To reduce memory usage by sharing objects that are similar in some ways, instead of creating new ones. 
