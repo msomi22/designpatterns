@@ -23,7 +23,7 @@
        - A class should have one and only one reason to change, "do one thing and do it well".
   * O : Open-closed principle
        - Introduced by Bertrand Meyer. 
-       - Objects should be open for extension, but closed for modification.
+       - Objects (i.e. software entities like including classes, modules or methods) should be open for extension, but closed for modification.
   * L : Liskov substitution principle
        - Introduced by *Barbara Liskov* in 1987.
        - It states that: 
